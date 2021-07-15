@@ -102,3 +102,5 @@ n.send({hello: 'world'});
 
 // 6、send()
 // 使用child_process.fork()生成新的进程之后，就可以用child.send(message, [sendHandle])向新进程发送消息。新进程中通过监听message事件，来获取消息。
+
+// 参考：https://javascript.ruanyifeng.com/nodejs/child-process.html#toc6
