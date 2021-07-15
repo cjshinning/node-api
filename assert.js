@@ -143,3 +143,5 @@ assert.fail(21, 21, 'Test failed', '###');
 // AssertionError [ERR_ASSERTION]: Test failed
 // assert.fail(21, 42, undefined, '###');
 // AssertionError [ERR_ASSERTION]: 21 ### 42
+
+// 参考：https://javascript.ruanyifeng.com/nodejs/assert.html
