@@ -214,3 +214,8 @@ try{
 }
 
 console.log('after emit');
+// before emit
+// beep
+// caught while emitting:  oops!
+// after emit
+// 第二个监听函数跑出的错误被try...catch代码捕获了。一旦被捕获，该事件后面的监听函数都不会再执行了。
